@@ -18362,6 +18362,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/command)
+"oiO" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "cargoload"
+	},
+/obj/structure/plasticflaps,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "ojh" = (
 /obj/machinery/suit_storage_unit/engine,
 /obj/machinery/status_display/evac{
@@ -21989,6 +22001,18 @@
 /obj/structure/closet/wardrobe/orange,
 /turf/open/floor/plasteel/dark/side,
 /area/crew_quarters/fitness/locker_room)
+"rpR" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "cargounload"
+	},
+/obj/structure/plasticflaps,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "rqv" = (
 /obj/structure/table/reinforced,
 /obj/item/stamp/denied{
@@ -72485,11 +72509,11 @@ aaa
 aaa
 aaa
 bWV
-uKo
+rpR
 pcN
 diU
 pcN
-fdI
+oiO
 bWV
 aaa
 aaa
