@@ -101,10 +101,11 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "adF" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/cable_coil,
-/turf/open/floor/plasteel/dark,
-/area/space)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hallway/primary/port)
 "aef" = (
 /obj/structure/table/glass,
 /obj/machinery/airalarm/directional/north,
@@ -208,7 +209,7 @@
 /area/ai_monitored/nuke_storage)
 "alm" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/belt/utility/full,
+/obj/item/stack/cable_coil,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "alJ" = (
@@ -480,6 +481,7 @@
 /area/crew_quarters/theatre)
 "avZ" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/belt/utility/full,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "awn" = (
@@ -642,7 +644,7 @@
 /turf/open/floor/engine,
 /area/engine/engine_room)
 "aBa" = (
-/obj/structure/table,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "aBp" = (
@@ -1629,6 +1631,17 @@
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
 "bul" = (
+/obj/structure/table,
+/obj/item/gps,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"bur" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/hydroponics)
+"but" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
 /obj/structure/window/reinforced{
@@ -1642,17 +1655,6 @@
 	pixel_y = 4
 	},
 /obj/item/weaponcrafting/gunkit/mark2,
-/turf/open/floor/plasteel/dark,
-/area/space)
-"bur" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/floor/plasteel/dark,
-/area/hydroponics)
-"but" = (
-/obj/structure/table/reinforced,
-/obj/machinery/microwave,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "buy" = (
@@ -1708,11 +1710,9 @@
 /turf/open/floor/plasteel/white,
 /area/medical/exam_room)
 "bxE" = (
-/obj/machinery/door/airlock/vault{
-	name = "Gun Parts";
-	req_one_access_txt = "114"
-	},
-/turf/open/floor/plating,
+/obj/structure/table/reinforced,
+/obj/machinery/microwave,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "bxN" = (
 /obj/structure/window/reinforced,
@@ -2093,33 +2093,11 @@
 /turf/open/floor/plasteel,
 /area/engine/break_room)
 "bND" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/machinery/door/airlock/vault{
+	name = "Gun Parts";
+	req_one_access_txt = "114"
 	},
-/obj/structure/table/reinforced,
-/obj/item/storage/guncase{
-	pixel_y = 10
-	},
-/obj/item/storage/guncase{
-	pixel_y = 8
-	},
-/obj/item/storage/guncase{
-	pixel_y = 6
-	},
-/obj/item/storage/guncase{
-	pixel_y = 4
-	},
-/obj/item/storage/guncase{
-	pixel_y = 2
-	},
-/obj/item/storage/guncase,
-/obj/item/storage/guncase{
-	pixel_y = -2
-	},
-/obj/item/storage/guncase{
-	pixel_y = -4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/space)
 "bOu" = (
 /obj/machinery/airalarm{
@@ -2327,41 +2305,32 @@
 /turf/closed/indestructible/opshuttle,
 /area/space)
 "bXW" = (
-/obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	name = "gun parts locker";
-	req_one_access_txt = "3"
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/obj/item/weaponcrafting/longbarrel,
-/obj/item/weaponcrafting/longbarrel,
-/obj/item/weaponcrafting/longbarrel,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/longbarrel,
-/obj/item/weaponcrafting/longbarrel,
-/obj/item/weaponcrafting/stepper,
-/obj/item/weaponcrafting/stepper,
-/obj/item/weaponcrafting/stepper,
-/obj/item/weaponcrafting/barrel,
-/obj/item/weaponcrafting/barrel,
-/obj/item/weaponcrafting/barrel,
-/obj/item/weaponcrafting/barrel,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/laser_receiver,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/plastic_stock,
-/obj/item/weaponcrafting/override,
-/obj/item/weaponcrafting/override,
+/obj/structure/table/reinforced,
+/obj/item/storage/guncase{
+	pixel_y = 10
+	},
+/obj/item/storage/guncase{
+	pixel_y = 8
+	},
+/obj/item/storage/guncase{
+	pixel_y = 6
+	},
+/obj/item/storage/guncase{
+	pixel_y = 4
+	},
+/obj/item/storage/guncase{
+	pixel_y = 2
+	},
+/obj/item/storage/guncase,
+/obj/item/storage/guncase{
+	pixel_y = -2
+	},
+/obj/item/storage/guncase{
+	pixel_y = -4
+	},
 /turf/open/floor/plasteel/dark,
 /area/space)
 "bYc" = (
@@ -3022,8 +2991,8 @@
 /turf/open/floor/wood,
 /area/crew_quarters/office/secretary)
 "cxN" = (
-/obj/item/bedsheet/black,
-/obj/structure/bed,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "cxQ" = (
@@ -3101,16 +3070,41 @@
 /turf/open/floor/carpet/blue,
 /area/hallway/primary/starboard)
 "cBD" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
+/obj/structure/closet/secure_closet{
+	icon_state = "armory";
+	name = "gun parts locker";
+	req_one_access_txt = "3"
 	},
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/item/weaponcrafting/gunkit/beam{
-	pixel_y = 4
-	},
-/obj/item/weaponcrafting/gunkit/beam,
+/obj/item/weaponcrafting/longbarrel,
+/obj/item/weaponcrafting/longbarrel,
+/obj/item/weaponcrafting/longbarrel,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/longbarrel,
+/obj/item/weaponcrafting/longbarrel,
+/obj/item/weaponcrafting/stepper,
+/obj/item/weaponcrafting/stepper,
+/obj/item/weaponcrafting/stepper,
+/obj/item/weaponcrafting/barrel,
+/obj/item/weaponcrafting/barrel,
+/obj/item/weaponcrafting/barrel,
+/obj/item/weaponcrafting/barrel,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/laser_receiver,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/plastic_stock,
+/obj/item/weaponcrafting/override,
+/obj/item/weaponcrafting/override,
 /turf/open/floor/plasteel/dark,
 /area/space)
 "cBQ" = (
@@ -3459,11 +3453,9 @@
 /turf/open/floor/holofloor/dark,
 /area/medical/genetics)
 "cRz" = (
-/obj/machinery/door/airlock/vault{
-	name = "Artillery Room";
-	req_access_txt = "114"
-	},
-/turf/open/floor/plating,
+/obj/item/bedsheet/black,
+/obj/structure/bed,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "cRC" = (
 /obj/effect/turf_decal/tile/blue{
@@ -3624,12 +3616,17 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "cYW" = (
-/obj/structure/table/reinforced,
-/obj/item/circuitboard/machine/bsa,
-/obj/item/circuitboard/machine/bsa/back,
-/obj/item/circuitboard/machine/bsa/front,
-/obj/item/circuitboard/machine/bsa/middle,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/structure/window/reinforced,
+/obj/item/weaponcrafting/gunkit/beam{
+	pixel_y = 4
+	},
+/obj/item/weaponcrafting/gunkit/beam,
+/turf/open/floor/plasteel/dark,
 /area/space)
 "cZd" = (
 /obj/machinery/door/firedoor,
@@ -3828,8 +3825,8 @@
 /area/hallway/primary/starboard)
 "dhq" = (
 /obj/machinery/door/airlock/vault{
-	name = "BSA Parts";
-	req_one_access_txt = "114"
+	name = "Artillery Room";
+	req_access_txt = "114"
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -10779,6 +10776,13 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/white,
 /area/medical/cryo)
+"jgf" = (
+/obj/machinery/door/airlock/vault{
+	name = "BSA Parts";
+	req_one_access_txt = "114"
+	},
+/turf/open/floor/plating,
+/area/space)
 "jgB" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/engine,
@@ -10808,7 +10812,11 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/break_room)
 "jhr" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/table/reinforced,
+/obj/item/circuitboard/machine/bsa,
+/obj/item/circuitboard/machine/bsa/back,
+/obj/item/circuitboard/machine/bsa/front,
+/obj/item/circuitboard/machine/bsa/middle,
 /turf/open/floor/plating,
 /area/space)
 "jhX" = (
@@ -14385,11 +14393,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /turf/open/floor/plating,
 /area/engine/atmos)
-"lWQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/frame/machine,
-/turf/open/floor/plating,
-/area/space)
 "lWZ" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel/white,
@@ -14844,6 +14847,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/bridge)
+"mtN" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
 "muh" = (
 /obj/machinery/light{
 	dir = 1
@@ -18750,10 +18757,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
-"puH" = (
-/obj/structure/frame/computer,
-/turf/open/floor/plating,
-/area/space)
 "pvr" = (
 /obj/machinery/status_display/ai{
 	pixel_y = 32
@@ -21313,6 +21316,10 @@
 /obj/structure/table/wood/fancy/green,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
+"rqZ" = (
+/obj/structure/frame/computer,
+/turf/open/floor/plating,
+/area/space)
 "rrM" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 4
@@ -22023,6 +22030,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"rXl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/machine,
+/turf/open/floor/plating,
+/area/space)
 "rXn" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -50410,7 +50422,7 @@ khY
 khY
 khY
 uOS
-cYW
+jhr
 uOS
 uOS
 khY
@@ -50924,8 +50936,8 @@ uOS
 uOS
 uOS
 uOS
-dhq
-jhr
+jgf
+mtN
 uOS
 uOS
 uOS
@@ -51177,8 +51189,8 @@ eNO
 hmz
 ahK
 ahK
-but
-avZ
+bxE
+cxN
 uOS
 clO
 clO
@@ -51431,7 +51443,7 @@ var
 eNO
 eNO
 eNO
-hmz
+adF
 ahK
 ahK
 ahK
@@ -51689,11 +51701,11 @@ lCs
 lsI
 eNO
 hmz
-adF
+alm
 ahK
 ahK
 ahK
-cRz
+dhq
 clO
 clO
 clO
@@ -51946,7 +51958,7 @@ wVP
 wVP
 wVP
 rDj
-alm
+avZ
 ahK
 ahK
 ahK
@@ -52203,10 +52215,10 @@ khY
 khY
 khY
 uOS
-avZ
+aBa
 ahK
 ahK
-bXW
+cBD
 uOS
 clO
 clO
@@ -52468,7 +52480,7 @@ uOS
 clO
 clO
 clO
-lWQ
+rXl
 clO
 clO
 clO
@@ -52718,7 +52730,7 @@ khY
 khY
 khY
 uOS
-aBa
+bul
 ahK
 bBr
 uOS
@@ -52726,7 +52738,7 @@ clO
 cry
 clO
 dem
-puH
+rqZ
 cry
 clO
 uOS
@@ -52977,7 +52989,7 @@ khY
 uOS
 ahK
 ahK
-cxN
+cRz
 uOS
 clO
 cry
@@ -53233,7 +53245,7 @@ khY
 khY
 uOS
 uOS
-bxE
+bND
 uOS
 uOS
 clO
@@ -53748,7 +53760,7 @@ khY
 uOS
 aLf
 bbQ
-cBD
+cYW
 uOS
 clO
 clO
@@ -54260,15 +54272,15 @@ khY
 khY
 khY
 uOS
-bul
-bND
-avZ
+but
+bXW
+aBa
 uOS
 uOS
 uOS
-jhr
-jhr
-jhr
+mtN
+mtN
+mtN
 uOS
 uOS
 uOS
