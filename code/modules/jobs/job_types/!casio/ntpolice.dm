@@ -20,7 +20,7 @@
 	mind_traits = list(TRAIT_DONUT_LOVER)
 	liver_traits = list(TRAIT_LAW_ENFORCEMENT_METABOLISM)
 
-	display_order = JOB_DISPLAY_ORDER_WARDEN
+	display_order = JOB_DISPLAY_ORDER_DETECTIVE
 	bounty_types = CIV_JOB_SEC
 
 /datum/outfit/job/ntpolice

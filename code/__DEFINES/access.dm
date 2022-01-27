@@ -114,7 +114,7 @@
 #define ACCESS_GOONHOS 113
 #define ACCESS_MUNITIONS 114
 
-//Stupid Access. Only used on one or two maps
+//Stupid Access. Only used on one or two maps. ALWAYS have with captain access.
 #define ACCESS_COMMSOFFICER 600
 
 	//The Syndicate

@@ -2255,6 +2255,7 @@
 #include "code\modules\jobs\job_types\!blacksite\ntmedical.dm"
 #include "code\modules\jobs\job_types\!blacksite\ntoperator.dm"
 #include "code\modules\jobs\job_types\!casio\blueshield.dm"
+#include "code\modules\jobs\job_types\!casio\munitions.dm"
 #include "code\modules\jobs\job_types\!casio\ntcaptain.dm"
 #include "code\modules\jobs\job_types\!casio\ntleader.dm"
 #include "code\modules\jobs\job_types\!casio\ntmarine.dm"
