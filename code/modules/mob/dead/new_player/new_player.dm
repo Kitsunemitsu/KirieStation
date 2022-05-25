@@ -431,6 +431,9 @@
 	if(SSmaptype.maptype == "blacksite")
 		department_categories = list("NT Marines")
 
+//HELLDIVERS ADDITION
+	if(SSmaptype.maptype == "helldivers")
+		department_categories = list("Helldivers", "Support")
 
 
 

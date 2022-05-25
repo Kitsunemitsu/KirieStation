@@ -1,0 +1,14 @@
+{
+	"version": 1,
+    "map_name": "Helldivers 13",
+    "map_path": "helldivers",
+    "map_file": "desertplanet.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_box"
+    	},
+	"maptype": "helldivers",
+	"minetype": "none"
+}

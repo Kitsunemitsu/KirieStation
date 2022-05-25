@@ -160,6 +160,7 @@ GLOBAL_LIST_INIT(solgov_positions, list(
 	"Nomad"))
 
 
+
 GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_COMMAND = list("jobs" = command_positions, "color" = "#ccccff"),
 	EXP_TYPE_ENGINEERING = list("jobs" = engineering_positions, "color" = "#ffeeaa"),
@@ -180,6 +181,10 @@ GLOBAL_LIST_INIT(position_categories, list(
 //Other Gamemodes
 	EXP_TYPE_SOLGOV = list("jobs" = solgov_positions, "color" = "#b7edda"),
 	EXP_TYPE_NTMARINE = list("jobs" = ntmarines_positions, "color" = "##134975"),
+
+//HELLDIVERS ADDITION
+	EXP_TYPE_HELLDIVER = list("jobs" = helldiver_positions, "color" = "#b7edda"),
+	EXP_TYPE_SUPPORT = list("jobs" = support_positions, "color" = "##134975"),
 ))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(
@@ -202,7 +207,11 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_POLICE = list("titles" = police_positions),
 
 //Other Gamemodes
-	EXP_TYPE_SOLGOV = list("titles" = solgov_positions)
+	EXP_TYPE_SOLGOV = list("titles" = solgov_positions),
+
+//HELLDIVERS ADDITION
+	EXP_TYPE_HELLDIVER = list("titles" = helldiver_positions),
+	EXP_TYPE_SUPPORT = list("titles" = support_positions),
 ))
 
 GLOBAL_LIST_INIT(exp_specialmap, list(

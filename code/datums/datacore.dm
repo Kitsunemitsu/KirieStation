@@ -212,6 +212,13 @@
 			"Operations"
 		)
 
+	if(SSmaptype.maptype == "helldivers")
+		manifest_out = list(
+			"Helldivers",
+			"Support"
+		)
+
+
 	var/list/departments
 
 	if(SSmaptype.maptype == "station" || SSmaptype.maptype == "galaxy" || SSmaptype.maptype == "vagabond"|| SSmaptype.maptype == "ship")
@@ -278,6 +285,11 @@
 			"Solgov Personnel" = GLOB.solgov_positions,
 			"NT Remnants" = GLOB.ntmarines_positions,
 			"Syndicate Outpost" = GLOB.operations_positions)
+
+	if(SSmaptype.maptype == "helldiver")
+		departments = list(
+			"Helldivers" = GLOB.helldiver_positions,
+			"Support" = GLOB.support_positions)
 
 	for(var/datum/data/record/t in GLOB.data_core.general)
 		var/name = t.fields["name"]

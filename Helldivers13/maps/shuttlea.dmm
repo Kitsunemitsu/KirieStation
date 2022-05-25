@@ -1,0 +1,32 @@
+"a" = (/turf/open/space/basic,/area/space)
+"c" = (/obj/structure/fans/tiny,/turf/open/floor/plasteel/dark,/area/space)
+"f" = (/obj/structure/shuttle/engine/heater{dir = 8},/turf/closed/indestructible/opshuttle,/area/space)
+"i" = (/obj/machinery/computer/camera_advanced/shuttle_docker{dir = 8; name = "Mechanic Shuttle Computer"},/turf/open/floor/plating,/area/space)
+"n" = (/obj/structure/chair/comfy/shuttle{dir = 4; pixel_x = -4},/obj/effect/turf_decal/trimline/yellow/filled/warning{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"o" = (/obj/structure/chair/comfy/shuttle{dir = 4; pixel_x = -4},/obj/effect/turf_decal/trimline/yellow/filled/warning,/turf/open/floor/plasteel/dark,/area/space)
+"t" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/open/space/basic,/area/space)
+"v" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/plasteel/dark,/area/space)
+"x" = (/obj/structure/closet/crate,/turf/open/floor/plasteel/dark,/area/space)
+"y" = (/turf/closed/indestructible/opsglass,/area/space)
+"z" = (/obj/item/gps/computer{pixel_y = -16},/obj/structure/table/reinforced,/turf/open/floor/plasteel/dark,/area/space)
+"D" = (/obj/structure/chair/comfy/shuttle,/turf/open/floor/plasteel/dark,/area/space)
+"E" = (/obj/structure/fans/tiny,/obj/machinery/manned_turret{anchored = 1},/turf/open/floor/plasteel/dark,/area/space)
+"H" = (/obj/structure/chair/comfy/shuttle{dir = 8; pixel_x = 4},/obj/effect/turf_decal/trimline/yellow/filled/warning,/turf/open/floor/plasteel/dark,/area/space)
+"I" = (/obj/effect/turf_decal/caution/stand_clear,/obj/effect/turf_decal/trimline/yellow/filled/warning,/turf/open/floor/plasteel/dark,/area/space)
+"J" = (/turf/closed/indestructible/opshuttle,/area/space)
+"L" = (/obj/machinery/computer/shuttle{dir = 8; light_color = "#FA8282"; name = "Mechanic Console"; possible_destinations = "whiteship_away;mining;mechanic_dock;whiteship_home;whiteship_z4;whiteship_lavaland;caravantrade1_custom;caravantrade1_ambush;mechanicdock1;mechanicdock2"; shuttleId = "mechanic"},/turf/open/floor/plating,/area/space)
+"O" = (/turf/open/floor/plasteel/dark,/area/space)
+"Q" = (/obj/effect/turf_decal/caution/stand_clear{dir = 1},/obj/effect/turf_decal/trimline/yellow/filled/warning{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"S" = (/obj/structure/fans/tiny,/obj/machinery/manned_turret{anchored = 1; dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"T" = (/obj/structure/chair/comfy/shuttle{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+"Y" = (/obj/structure/chair/comfy/shuttle{dir = 8; pixel_x = 4},/obj/effect/turf_decal/trimline/yellow/filled/warning{dir = 1},/turf/open/floor/plasteel/dark,/area/space)
+
+(1,1,1) = {"
+aaatfJcccSJaa
+aJJJJJnQYJJJJ
+JJxDDDOOOOOzy
+JxOOOOOOOOviy
+JJxTTTOOOOOLy
+aJJJJJoIHJJJJ
+aaatfJcccEJaa
+"}

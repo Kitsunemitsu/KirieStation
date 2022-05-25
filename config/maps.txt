@@ -13,73 +13,13 @@ Format:
 	votable (is this map votable)
 endmap
 
-map metastation
-	#default
-	minplayers 25
-	#voteweight 0.5
-endmap
-
-map deltastation
-	minplayers 50
-endmap
-
-map packedstation
-	maxplayers 20
-	votable
-endmap
-
-map galaxystation
-	votable
-endmap
-
-map remorastation
-	maxplayers 30
-	votable
-endmap
-
-map fermistation
-	votable
-endmap
-
-map boxstation
-	votable
-endmap
-
-map pubbystation
-	votable
-endmap
-
-map casiostation
-	votable
-endmap
-
-map icebox
-	minplayers 25
-endmap
-
-map chimerastation
-	minplayers 40
-endmap
-
-map TaliStation
-	minplayers 10
+map helldivers
 	votable
 endmap
 
 map runtimestation
 endmap
 
-map andromedastation
-endmap
-
-map remusfacility
-endmap
-
-map romulusfacility
-endmap
-
-map ntblacksite
-endmap
 
 map multiz_debug
 endmap
