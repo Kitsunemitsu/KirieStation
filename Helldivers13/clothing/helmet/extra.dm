@@ -3,7 +3,7 @@
 	desc = "Given out to helldivers specialists. You can always call for help."
 	icon_state = "specialist"
 
-/obj/item/clothing/head/helmet/helldiver/specialist
+/obj/item/clothing/head/helmet/helldiver/commando
 	name = "Mk7 'Commando' Helmet"
 	desc = "You take everything you need. Who knows how long you'll be out there."
 	icon_state = "commando"

@@ -6,7 +6,8 @@
 	worn_icon = 'Helldivers13/clothing/helmet/worn.dmi'
 	icon = 'Helldivers13/clothing/helmet/icon.dmi'
 	inhand_icon_state = "syndicate_suit"
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF | HEADCOVERSHAIR
+	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 	armor = list(MELEE = 40, BULLET = 50, LASER = 30, ENERGY = 30, BOMB = 0, BIO = 0, RAD = 0, FIRE = 0, ACID = 0)
 
 

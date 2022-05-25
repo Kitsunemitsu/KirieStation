@@ -10,3 +10,23 @@
 	glasses = /obj/item/clothing/glasses/thermal/xray
 	neck = /obj/item/clothing/neck/cloak/helldiver
 
+
+/datum/outfit/job/helldiver/lt
+	name = "Helldiver Lieutenant"
+
+	ears = /obj/item/radio/headset/heads
+	belt = /obj/item/gun/ballistic/automatic/liberator
+	uniform = /obj/item/clothing/under/helldiver/commando
+	head = /obj/item/clothing/head/helmet/helldiver/commando
+	neck = /obj/item/clothing/neck/cloak/helldiver/commando
+
+
+/datum/outfit/job/helldiver/captain
+	name = "Helldiver Captain"
+
+	ears = /obj/item/radio/headset/heads
+	belt = /obj/item/gun/ballistic/automatic/liberator
+	uniform = /obj/item/clothing/under/helldiver/specialist
+	head = /obj/item/clothing/head/helmet/helldiver/specialist
+	neck = /obj/item/clothing/neck/cloak/helldiver/specialist
+

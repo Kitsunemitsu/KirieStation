@@ -24,6 +24,7 @@
 
 /obj/item/ammo_box/magazine/mm712x82/helldiver
 	name = "Helldiver Stalwart Ammo"
+	icon = 'Helldivers13/guns/ammo.dmi'
 	icon_state = "lmg"
 	ammo_type = /obj/item/ammo_casing/mm712x82
 	caliber = CALIBER_712X82MM

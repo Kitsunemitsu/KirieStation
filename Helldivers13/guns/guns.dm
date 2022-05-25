@@ -24,7 +24,7 @@
 	weapon_weight = WEAPON_HEAVY
 	mag_type = /obj/item/ammo_box/magazine/m556/helldiver
 	item_flags = SLOWS_WHILE_IN_HAND
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.12
 	actions_types = list()
 
@@ -44,7 +44,7 @@
 	weapon_weight = WEAPON_HEAVY
 	mag_type = /obj/item/ammo_box/magazine/mm712x82/helldiver
 	item_flags = SLOWS_WHILE_IN_HAND
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.21
 	actions_types = list()
 
@@ -63,7 +63,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm/defender
 	item_flags = SLOWS_WHILE_IN_HAND
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.05
 	actions_types = list()
 
@@ -83,7 +83,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	mag_type = /obj/item/ammo_box/magazine/m12g/helldiver
 	item_flags = SLOWS_WHILE_IN_HAND
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.12
 	actions_types = list()
 
