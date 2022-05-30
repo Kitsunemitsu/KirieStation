@@ -35,8 +35,8 @@
 	deathmessage = "<span class='colossus'>chokes on her own blood, gurgling out 'You're coming with me, mutie' as she activates her self destruct!</span>"
 	deathsound = 'sound/effects/gravhit.ogg'
 	del_on_death = FALSE
-	loot = list(/obj/item/gun/energy/sniper/fallout)
-	crusher_loot = list(/obj/item/gun/energy/sniper/fallout)	///Funny AER12
+	loot = list(/*/obj/item/gun/energy/sniper/fallout*/)
+	crusher_loot = list(/*/obj/item/gun/energy/sniper/fallout*/)	///Funny AER12. I don't even think anyone got this one, I'm just gonna remove it out of pure spite
 
 /mob/living/simple_animal/hostile/megafauna/captainarlem/OpenFire()
 	anger_modifier = clamp(((maxHealth - health)/50),0,20)
