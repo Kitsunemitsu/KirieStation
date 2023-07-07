@@ -61,7 +61,7 @@
 	burst_size = 1
 	pin = /obj/item/firing_pin
 	w_class = WEIGHT_CLASS_BULKY
-	mag_type = /obj/item/ammo_box/magazine/uzim9mm/defender
+	mag_type = /obj/item/ammo_box/magazine/uzim9mm/helldiver
 	item_flags = SLOWS_WHILE_IN_HAND
 	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.05
