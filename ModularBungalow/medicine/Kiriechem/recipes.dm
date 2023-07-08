@@ -20,23 +20,6 @@
 	required_reagents = list(/datum/reagent/medicine/omnizidrite = 10, /datum/reagent/medicine/tricordizine = 10, /datum/reagent/medicine/verafore = 10, /datum/reagent/hellwater = 10, /datum/reagent/lube/superlube = 10, /datum/reagent/medicine/omnizine/godblood = 10)
 	mix_message = "????"
 
-
-
-//KL-6 Explosion
-/datum/chemical_reaction/reagent_explosion/kl6_explosion
-	required_reagents = list(/datum/reagent/kl6 = 1)
-	required_temp = 350
-	strengthdiv = 4
-	modifier = 5
-
-/datum/chemical_reaction/reagent_explosion/kl6_explosion/on_reaction(datum/reagents/holder, created_volume)
-	var/fire_range = round(created_volume/30)
-	var/turf/T = get_turf(holder.my_atom)
-	for(var/turf/turf in range(fire_range,T))
-		new /obj/effect/hotspot(turf)
-	holder.chem_temp = 500
-	..()
-
 //Protofore
 /datum/chemical_reaction/protofore
 	results = list(/datum/reagent/protofore = 3)
