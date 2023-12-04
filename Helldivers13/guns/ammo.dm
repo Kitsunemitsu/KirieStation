@@ -19,6 +19,7 @@
 	name = "Helldiver Breaker Ammo"
 	icon = 'Helldivers13/guns/ammo.dmi'
 	icon_state = "shotgun"
+	max_ammo = 12
 	w_class = WEIGHT_CLASS_NORMAL
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
@@ -29,4 +30,13 @@
 	ammo_type = /obj/item/ammo_casing/mm712x82
 	caliber = CALIBER_712X82MM
 	max_ammo = 125
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+
+/obj/item/ammo_box/magazine/mm712x82/helldivermg
+	name = "Helldiver MG-94 Ammo"
+	icon = 'Helldivers13/guns/ammo.dmi'
+	icon_state = "mg"
+	ammo_type = /obj/item/ammo_casing/mm712x82
+	caliber = CALIBER_712X82MM
+	max_ammo = 250
 	multiple_sprites = AMMO_BOX_FULL_EMPTY

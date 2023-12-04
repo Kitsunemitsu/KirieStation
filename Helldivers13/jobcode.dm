@@ -13,6 +13,7 @@ GLOBAL_LIST_INIT(helldiver_positions, list(
 GLOBAL_LIST_INIT(support_positions, list(
 	"Fleet Researcher",
 	"Ship Doctor",
+	"Support Officer",
 	"Dropship Pilot"))
 
 

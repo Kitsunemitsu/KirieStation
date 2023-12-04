@@ -54,14 +54,10 @@
 
 	mob_spawn_chance = 3
 
-	mob_spawn_list = list(
-		/mob/living/simple_animal/hostile/hivebot = 30,
-		/mob/living/simple_animal/hostile/hivebot/strong = 5,
-		/mob/living/simple_animal/hostile/hivebot/range = 20,
-		/mob/living/simple_animal/hostile/hivebot/rapid = 10,
-		/mob/living/simple_animal/hostile/hivebot/mechanic = 20,
-		/mob/living/simple_animal/hostile/asteroid/goliath = 3,
-		/mob/living/simple_animal/hostile/asteroid/hivelord = 3)
+	mob_spawn_list = list(/mob/living/simple_animal/hostile/solgov/ranged = 50, /mob/living/simple_animal/hostile/solgov/ranged/assault = 15, \
+						  /mob/living/simple_animal/hostile/solgov/ranged/cloaker = 5, /mob/living/simple_animal/hostile/solgov/ranged/smg = 10, \
+						  /mob/living/simple_animal/hostile/solgov/ranged/heavy/shotgun = 15, /mob/living/simple_animal/hostile/solgov/ranged/heavy = 15, \
+						  /mob/living/simple_animal/hostile/solgov/ranged/rifle = 2)
 	flora_spawn_list = list(
 		/obj/structure/flora/rock/jungle = 2,
 		/obj/structure/flora/junglebush = 2,
@@ -72,7 +68,7 @@
 		/obj/structure/flora/ash/tall_shroom = 2)
 	feature_spawn_list = list(/obj/structure/geyser/random = 1, /obj/effect/mine/shrapnel/human_only = 1)
 
-	initial_closed_chance = 45
+	initial_closed_chance = 35
 	smoothing_iterations = 50
 	birth_limit = 4
 	death_limit = 3
