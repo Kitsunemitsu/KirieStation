@@ -7,9 +7,14 @@
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/powered)
 "gk" = (
+/obj/machinery/computer/operating{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/powered)
+"ht" = (
 /obj/structure/rack,
-/obj/machinery/light,
-/obj/item/clothing/neck/cloak/helldiver/operator,
+/obj/item/clothing/neck/cloak/helldiver/combat,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "hC" = (
@@ -61,8 +66,8 @@
 /area/ruin/space/has_grav/powered)
 "nO" = (
 /obj/structure/rack,
-/obj/item/clothing/neck/cloak/helldiver/combat,
-/turf/open/floor/plasteel/dark,
+/obj/item/clothing/neck/cloak/helldiver/desert,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "nS" = (
 /turf/open/floor/plasteel/white,
@@ -116,11 +121,12 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "uC" = (
-/obj/machinery/cryopod/latejoin,
-/turf/open/floor/plasteel/dark,
+/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/powered)
 "uN" = (
-/turf/open/space/basic,
+/turf/open/genturf,
 /area/rockplanet/surface/outdoors/unexplored/danger)
 "uP" = (
 /obj/machinery/light{
@@ -153,6 +159,12 @@
 /obj/machinery/light/floor,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
+"yn" = (
+/obj/structure/rack,
+/obj/machinery/light,
+/obj/item/clothing/neck/cloak/helldiver/operator,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/powered)
 "yK" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/white,
@@ -166,8 +178,8 @@
 /area/ruin/space/has_grav/powered)
 "BB" = (
 /obj/structure/rack,
-/obj/item/clothing/neck/cloak/helldiver,
-/turf/open/floor/plasteel/dark,
+/obj/item/clothing/neck/cloak/helldiver/specialist,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Du" = (
 /obj/structure/rack,
@@ -181,8 +193,8 @@
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/powered)
 "Ek" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/plasteel,
+/obj/machinery/cryopod/latejoin,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "GP" = (
 /obj/structure/rack,
@@ -217,14 +229,10 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "Ll" = (
-/obj/structure/rack,
-/obj/item/clothing/under/helldiver,
-/obj/machinery/light,
-/obj/item/clothing/under/helldiver,
-/obj/item/clothing/under/helldiver,
-/obj/item/clothing/under/helldiver,
-/obj/item/clothing/under/helldiver,
-/obj/item/clothing/under/helldiver,
+/obj/machinery/cryopod/latejoin,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Lr" = (
@@ -256,6 +264,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
+"Op" = (
+/obj/structure/rack,
+/obj/item/clothing/neck/cloak/helldiver,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/powered)
 "ON" = (
 /obj/item/paper_bin,
 /obj/structure/table/glass,
@@ -266,6 +279,23 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/powered)
+"PO" = (
+/obj/structure/rack,
+/obj/item/clothing/neck/cloak/helldiver/drop,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/powered)
+"Qa" = (
+/obj/structure/rack,
+/obj/machinery/light,
+/obj/item/clothing/under/helldiver/veteran,
+/obj/item/clothing/under/helldiver/veteran,
+/obj/item/clothing/under/helldiver/veteran,
+/obj/item/clothing/under/helldiver/veteran,
+/obj/item/clothing/head/helmet/space/helldiver/veteran,
+/obj/item/clothing/head/helmet/space/helldiver/veteran,
+/obj/item/clothing/head/helmet/space/helldiver/veteran,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/powered)
 "Rx" = (
 /obj/effect/landmark/observer_start,
@@ -286,10 +316,8 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "Ss" = (
-/obj/machinery/computer/operating{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
+/obj/effect/landmark/latejoin,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 "TF" = (
 /obj/machinery/chem_heater,
@@ -371,8 +399,8 @@
 /area/ruin/space/has_grav/powered)
 "Zs" = (
 /obj/structure/rack,
-/obj/item/clothing/neck/cloak/helldiver/drop,
-/turf/open/floor/plasteel/dark,
+/obj/item/clothing/neck/cloak/helldiver/commando,
+/turf/open/floor/plasteel,
 /area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
@@ -16453,11 +16481,11 @@ bQ
 bQ
 bQ
 bQ
-bQ
-bQ
-bQ
-bQ
-bQ
+lB
+lB
+lB
+lB
+lB
 bQ
 bQ
 bQ
@@ -16955,11 +16983,11 @@ bQ
 bQ
 bQ
 bQ
-bQ
-bQ
-bQ
-bQ
-bQ
+lB
+gk
+qr
+nS
+lB
 bQ
 bQ
 bQ
@@ -17457,11 +17485,11 @@ bQ
 bQ
 bQ
 bQ
-bQ
-bQ
-bQ
-bQ
-bQ
+lB
+nS
+nS
+nS
+lB
 bQ
 bQ
 bQ
@@ -17961,7 +17989,7 @@ lB
 lB
 lB
 lB
-lB
+mF
 lB
 lB
 bQ
@@ -18462,8 +18490,8 @@ sU
 nS
 nS
 lB
-Ss
-qr
+nS
+nS
 rJ
 lB
 lB
@@ -19469,7 +19497,7 @@ lB
 nS
 nS
 nS
-tD
+uC
 nS
 nS
 lB
@@ -23998,8 +24026,8 @@ lB
 tD
 lB
 lB
-bQ
-bQ
+lB
+lB
 bQ
 bQ
 bQ
@@ -24498,10 +24526,10 @@ iV
 lB
 uP
 iV
-gk
+iV
+iV
+yn
 lB
-bQ
-bQ
 bQ
 bQ
 bQ
@@ -25001,9 +25029,9 @@ lB
 rd
 iV
 BB
+iV
+Op
 lB
-bQ
-bQ
 bQ
 bQ
 bQ
@@ -25503,9 +25531,9 @@ Sf
 iV
 iV
 nO
+iV
+ht
 lB
-bQ
-bQ
 bQ
 bQ
 bQ
@@ -26005,9 +26033,9 @@ iV
 iV
 iV
 Zs
+iV
+PO
 lB
-bQ
-bQ
 bQ
 bQ
 bQ
@@ -26506,10 +26534,10 @@ iV
 lB
 TS
 iV
-Ll
+iV
+iV
+Qa
 lB
-bQ
-bQ
 bQ
 bQ
 bQ
@@ -27002,16 +27030,16 @@ sO
 tY
 Yz
 lB
-uC
-Ek
-Ek
 lB
 lB
 lB
 lB
 lB
-bQ
-bQ
+iV
+lB
+lB
+lB
+lB
 bQ
 bQ
 bQ
@@ -27504,14 +27532,14 @@ Nt
 tY
 iV
 lB
-uC
-Ek
-Ek
+bQ
+bQ
+bQ
 lB
-bQ
-bQ
-bQ
-bQ
+Ek
+Ss
+Ss
+lB
 bQ
 bQ
 bQ
@@ -28006,14 +28034,14 @@ Yz
 Yz
 iV
 lB
-uC
-Ek
-Ek
+bQ
+bQ
+bQ
 lB
-bQ
-bQ
-bQ
-bQ
+Ll
+Ss
+Ss
+lB
 bQ
 bQ
 bQ
@@ -28508,14 +28536,14 @@ iV
 iV
 iV
 lB
-uC
-Ek
-Ek
+bQ
+bQ
+bQ
 lB
-bQ
-bQ
-bQ
-bQ
+Ek
+Ss
+Ss
+lB
 bQ
 bQ
 bQ
@@ -29010,14 +29038,14 @@ lB
 lB
 lB
 lB
-lB
-lB
-lB
-lB
 bQ
 bQ
 bQ
-bQ
+lB
+Ek
+Ss
+Ss
+lB
 bQ
 bQ
 bQ
@@ -29515,11 +29543,11 @@ bQ
 bQ
 bQ
 bQ
-bQ
-bQ
-bQ
-bQ
-bQ
+lB
+lB
+lB
+lB
+lB
 bQ
 bQ
 bQ

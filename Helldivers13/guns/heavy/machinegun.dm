@@ -15,4 +15,4 @@
 
 /obj/item/gun/ballistic/automatic/helldivermg/ComponentInitialize()
 	. = ..()
-	AddComponent(/datum/component/automatic_fire, 0.10 SECONDS)
+	AddComponent(/datum/component/automatic_fire, 0.12 SECONDS)

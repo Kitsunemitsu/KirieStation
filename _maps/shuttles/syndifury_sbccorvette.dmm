@@ -2,61 +2,18 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/sbc/corvette)
-"c" = (
-/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/shuttle/sbc/corvette)
-"d" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/sbc/corvette)
-"e" = (
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
 "f" = (
-/obj/machinery/power/apc/syndicate{
-	dir = 2;
-	pixel_x = 0;
-	pixel_y = -28
-	},
-/obj/structure/cable,
-/obj/machinery/light/small,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "g" = (
-/obj/structure/shuttle/engine/propulsion,
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
 /turf/open/space/basic,
 /area/shuttle/sbc/corvette)
-"h" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	icon_state = "shuttle_chair"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
 "i" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	icon_state = "shuttle_chair"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"j" = (
-/obj/structure/chair/comfy/shuttle,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"k" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"l" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{
-	dir = 1;
-	icon_state = "computer";
+	dir = 8;
 	jumpto_ports = list("sbccorvette_BAY" = 1, "syndicate_ne" = 1, "syndicate_nw" = 1, "syndicate_n" = 1, "syndicate_se" = 1, "syndicate_sw" = 1, "syndicate_s" = 1);
 	name = "Syndicate Corvette Navigation Console";
 	networks = list("ss13","starfurybc_cam");
@@ -66,65 +23,58 @@
 	x_offset = 2;
 	y_offset = 1
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
-"o" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/multitool,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"p" = (
-/obj/structure/table/reinforced,
-/obj/item/tank/internals/emergency_oxygen/engi,
-/obj/item/tank/internals/emergency_oxygen/engi,
-/obj/item/tank/internals/emergency_oxygen/engi,
-/obj/item/tank/internals/emergency_oxygen/engi,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/clothing/mask/gas/syndicate,
-/obj/item/clothing/mask/gas/syndicate,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"r" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/fancy/cigarettes/cigpack_syndicate,
-/obj/item/lighter{
-	pixel_x = 6
+"l" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	pixel_x = -4
 	},
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/turf_decal/trimline/yellow/filled/warning,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"q" = (
+/obj/structure/fans/tiny,
+/obj/machinery/manned_turret{
+	anchored = 1;
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "s" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/obj/effect/turf_decal/trimline/yellow/filled/warning,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"u" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	pixel_x = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"v" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"w" = (
 /obj/machinery/computer/shuttle/syndicate{
-	dir = 1;
-	icon_state = "computer";
+	dir = 8;
 	name = "Syndicate Corvette Console";
 	possible_destinations = "sbccorvette_BAY;sbccorvette_custom;syndicate_nw";
 	shuttleId = "sbccorvette"
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"v" = (
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/sbc/corvette)
-"w" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8;
-	icon_state = "shuttle_chair"
-	},
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "x" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4;
-	icon_state = "shuttle_chair"
-	},
-/obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/closet/crate,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "y" = (
+/obj/structure/fans/tiny,
 /obj/docking_port/mobile{
 	dwidth = 4;
 	height = 6;
@@ -134,152 +84,158 @@
 	preferred_direction = 2;
 	width = 12
 	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "z" = (
-/obj/machinery/camera/xray{
-	c_tag = "Corvette";
-	dir = 1;
-	icon_state = "xraycamera";
-	name = "shuttle camera";
-	network = list("SBC_Corvette1");
-	pixel_x = 0;
-	pixel_y = 32
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	pixel_x = 4
 	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/obj/effect/turf_decal/trimline/yellow/filled/warning,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
 "A" = (
-/obj/machinery/door/airlock/external{
-	id_tag = "sbc_corvette_bolt";
-	name = "Syndicate Corvette Airlock";
-	req_access_txt = "150"
+/obj/structure/shuttle/engine/heater{
+	dir = 8
 	},
-/obj/structure/cable,
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
+/turf/closed/indestructible/opshuttle,
 /area/shuttle/sbc/corvette)
 "G" = (
-/obj/machinery/door/airlock/external{
-	id_tag = "sbc_corvette_bolt";
-	name = "Syndicate Corvette Airlock";
-	req_access_txt = "150"
-	},
 /obj/structure/fans/tiny,
-/obj/structure/cable,
-/turf/open/floor/plating,
+/obj/machinery/manned_turret{
+	anchored = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
-"O" = (
-/obj/machinery/porta_turret/syndicate/energy/raven{
+"K" = (
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"L" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"N" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	pixel_x = -4
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 1
 	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/open/floor/plasteel/dark,
 /area/shuttle/sbc/corvette)
-"Q" = (
-/obj/machinery/porta_turret/syndicate/energy/raven{
-	dir = 5
+"R" = (
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 1
 	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/sbc/corvette)
+"Y" = (
+/turf/closed/indestructible/opsglass,
 /area/shuttle/sbc/corvette)
 "Z" = (
-/obj/machinery/porta_turret/syndicate/energy/raven{
-	dir = 9
-	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/indestructible/opshuttle,
 /area/shuttle/sbc/corvette)
 
 (1,1,1) = {"
 a
 Z
-c
-c
-b
-g
+Z
+Z
+Z
+a
 "}
 (2,1,1) = {"
-d
-d
-h
+a
+Z
 x
-o
-d
+x
+Z
+a
 "}
 (3,1,1) = {"
-c
-j
-e
+g
+Z
 v
-d
+f
+Z
 g
 "}
 (4,1,1) = {"
-c
-k
+A
+Z
 v
-v
-v
+f
+Z
 A
 "}
 (5,1,1) = {"
-O
-r
+Z
+Z
 v
 f
-d
-g
+Z
+Z
 "}
 (6,1,1) = {"
-c
-k
-v
-j
+K
+N
+f
+f
 l
 y
 "}
 (7,1,1) = {"
-c
-k
-v
-j
+K
+R
+f
+f
 s
-d
+K
 "}
 (8,1,1) = {"
-O
-k
-v
-e
+K
+u
+f
+f
 z
-g
+K
 "}
 (9,1,1) = {"
-c
-k
-v
-v
-v
+q
+Z
+f
+f
+Z
 G
 "}
 (10,1,1) = {"
-c
-j
-v
-e
-d
-g
+Z
+Z
+L
+f
+Z
+Z
 "}
 (11,1,1) = {"
-d
-d
+a
+Z
 w
 i
-p
-d
+Z
+a
 "}
 (12,1,1) = {"
 a
-Q
-c
-c
-b
-g
+Z
+Y
+Y
+Z
+a
 "}

@@ -12,9 +12,9 @@
 						  /mob/living/simple_animal/hostile/solgov/ranged/cloaker = 5, /mob/living/simple_animal/hostile/solgov/ranged/smg = 10, \
 						  /mob/living/simple_animal/hostile/solgov/ranged/heavy/shotgun = 15, /mob/living/simple_animal/hostile/solgov/ranged/heavy = 15, \
 						  /mob/living/simple_animal/hostile/solgov/ranged/rifle = 2)
-	flora_spawn_list = list()
-	initial_closed_chance = 10
-	smoothing_iterations = 50
+	flora_spawn_list = list(/obj/structure/geyser/wittel = 6)
+	initial_closed_chance = 20
+	smoothing_iterations = 10
 	birth_limit = 4
 	death_limit = 3
 

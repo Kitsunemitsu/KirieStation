@@ -12,6 +12,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	slowdown = 0.21
 	actions_types = list()
+	projectile_damage_multiplier = 0.6
 
 /obj/item/gun/ballistic/automatic/stalwart/ComponentInitialize()
 	. = ..()
