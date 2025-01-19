@@ -1813,7 +1813,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		humi.add_or_update_variable_movespeed_modifier(/datum/movespeed_modifier/cold, multiplicative_slowdown = ((bodytemp_cold_damage_limit - humi.bodytemperature) / COLD_SLOWDOWN_FACTOR))
 		// Display alerts based how cold it is
 		switch(humi.bodytemperature)
-			if(201 to bodytemp_cold_damage_limit)
+			if(201 to 273)		//Had to remove this so I could
 				humi.throw_alert("temp", /atom/movable/screen/alert/cold, 1)
 			if(120 to 200)
 				humi.throw_alert("temp", /atom/movable/screen/alert/cold, 2)
@@ -1874,7 +1874,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		var/damage_type = is_hulk ? BRUTE : BURN
 		var/damage_mod = coldmod * humi.physiology.cold_mod * (is_hulk ? HULK_COLD_DAMAGE_MOD : 1)
 		switch(humi.coretemperature)
-			if(201 to cold_damage_limit)
+			if(201 to 273)
 				humi.apply_damage(COLD_DAMAGE_LEVEL_1 * damage_mod, damage_type)
 			if(120 to 200)
 				humi.apply_damage(COLD_DAMAGE_LEVEL_2 * damage_mod, damage_type)

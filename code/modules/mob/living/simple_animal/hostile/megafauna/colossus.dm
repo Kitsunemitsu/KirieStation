@@ -99,13 +99,13 @@
 	if(client) //Player controlled handled a bit differently.
 		switch(chosen_attack)
 			if(1)
-				if(health <= maxHealth/10)
-					final_attack()
-				else
-					telegraph()
-					INVOKE_ASYNC(src, /atom/movable.proc/say, "Judgement.", null, list("colossus", "yell"))
-					select_spiral_attack()
-					ranged_cooldown = world.time + 30
+				//if(health <= maxHealth/10)
+				//	final_attack()
+				//else
+				telegraph()
+				INVOKE_ASYNC(src, /atom/movable.proc/say, "Judgement.", null, list("colossus", "yell"))
+				select_spiral_attack()
+				ranged_cooldown = world.time + 30
 			if(2)
 				telegraph()
 				INVOKE_ASYNC(src, /atom/movable.proc/say, "Wrath.", null, list("colossus", "yell"))
@@ -142,13 +142,7 @@
 			blast()
 		if(4)
 			alternating_dir_shots()
-		if(5)
-			final_attack()
-
-	if(health <= maxHealth/10) 					//Ultimate attack guaranteed at below 10% HP
-		INVOKE_ASYNC(src, /atom/movable.proc/say, "Die..", null, list("colossus", "yell"))
-		random_attack_num = 5
-	else if(prob(20+anger_modifier))			//If more than 10% HP, determine next attack randomly
+	if(prob(20+anger_modifier))			//If more than 10% HP, determine next attack randomly
 		INVOKE_ASYNC(src, /atom/movable.proc/say, "Judgement.", null, list("colossus", "yell"))
 		random_attack_num = 1
 	else
