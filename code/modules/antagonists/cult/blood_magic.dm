@@ -808,7 +808,7 @@
 			"Blood Bolt Barrage (300)" = image(icon = 'icons/obj/guns/projectile.dmi', icon_state = "arcane_barrage"),
 			"Blood Beam (500)" = image(icon = 'icons/obj/items_and_weapons.dmi', icon_state = "disintegrate")
 			)
-		var/choice = show_radial_menu(user, src, spells, custom_check = CALLBACK(src, .proc/check_menu, user), require_near = TRUE)
+		var/choice = show_radial_menu(user, src, spells, custom_check = CALLBACK(src, PROC_REF(check_menu), user), require_near = TRUE)
 		if(!check_menu(user))
 			to_chat(user, "<span class='cultitalic'>You decide against conducting a greater blood rite.</span>")
 			return

@@ -103,22 +103,22 @@
 				//	final_attack()
 				//else
 				telegraph()
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Judgement.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Judgement.", null, list("colossus", "yell"))
 				select_spiral_attack()
 				ranged_cooldown = world.time + 30
 			if(2)
 				telegraph()
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Wrath.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Wrath.", null, list("colossus", "yell"))
 				random_shots()
 				ranged_cooldown = world.time + 30
 			if(3)
 				telegraph()
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Retribution.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Retribution.", null, list("colossus", "yell"))
 				blast()
 				ranged_cooldown = world.time + 30
 			if(4)
 				telegraph()
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Lament.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Lament.", null, list("colossus", "yell"))
 				alternating_dir_shots()
 				ranged_cooldown = world.time + 30
 		return
@@ -143,18 +143,18 @@
 		if(4)
 			alternating_dir_shots()
 	if(prob(20+anger_modifier))			//If more than 10% HP, determine next attack randomly
-		INVOKE_ASYNC(src, /atom/movable.proc/say, "Judgement.", null, list("colossus", "yell"))
+		INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Judgement.", null, list("colossus", "yell"))
 		random_attack_num = 1
 	else
 		switch(rand(1, 3))
 			if(1)
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Wrath.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Wrath.", null, list("colossus", "yell"))
 				random_attack_num = 2
 			if(2)
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Retribution.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Retribution.", null, list("colossus", "yell"))
 				random_attack_num = 3
 			if(3)
-				INVOKE_ASYNC(src, /atom/movable.proc/say, "Lament.", null, list("colossus", "yell"))
+				INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), "Lament.", null, list("colossus", "yell"))
 				random_attack_num = 4
 	telegraph()
 	ranged_cooldown = world.time + 30
